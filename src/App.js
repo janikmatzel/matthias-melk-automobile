@@ -3,23 +3,29 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Matthias Melk Automobile</h1>
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">Impressum</a>
+        <a href="#contact">Dienstleistungen</a>
+      </div>
 
-      <div className="Philosophie">
+      <h1><div className="blue">M</div>atthias&nbsp;<div className="blue">M</div>elk Automobile</h1>
+
+      <div className="textbox">
         <h2>Philosophie und mein Versprechen</h2>
         Als Kfz-Meister und Betriebswirt mit 35 Jahren Erfahrung in der Kfz-Branche habe ich mich darauf spezialisiert gezielt Fahrzeuge zu suchen und zu verkaufen die meinen hohen Ansprüchen entsprechen.
         Ich vertreibe nur Fahrzeuge, die eine nachvollziehbare Historie haben und lückenlos nach den Herstellervorgaben gewartet worden sind und entsprechend dokumentiert (Serviceheft) wurden.
         Diese Rahmenbedingungen gewährleisten dem Käufer eine sichere und sorgenfreie Mobilität.
       </div>
 
-      <div>
+      <div className="textbox">
         <h2>Unser Anspruch</h2>
         Wir sind ein inhabergeführter Kfz-Handelsbetrieb mit Menschen, die sich persönlich für sie engagieren und Verantwortung übernehmen.
         Jeder Kontakt und Dialog mit Ihnen ist uns wichtig und bereitet uns Freude.
         Als Interessent und Kunde stehen sie für uns im Mittelpunkt, verbunden mit dem Ziel das sie mit dem Fahrzeug und unseren Dienstleistungen rund um das Auto vollkommen zufrieden sind.
       </div>
 
-      <div className="Impressum">
+      <div className="textbox">
         <h2>Impressum</h2>
         <p>Angaben gemäß §5 TMG:</p>
         <p></p>
@@ -43,12 +49,10 @@ function App() {
       </div>
 
 
-      <div className="Kontakt">
+      <div className="textbox">
         <h2>Kontakt</h2>
         <p></p>
-        <p>Matthias</p>
-        <p>Melk</p>
-        <p>Automobile</p>
+        <div className="contact"><div className="blue">M</div>atthias&nbsp;<div className="blue">M</div>elk Automobile</div>
         <p></p>
         <p>Postanschrift:</p>
         <p>Hauptstr. 20</p>
