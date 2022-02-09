@@ -1,12 +1,15 @@
 import './App.css';
+import { useNavigate } from "react-router-dom";
 
-function App() {
+
+const App = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="App">
       <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">Impressum</a>
-        <a href="#contact">Dienstleistungen</a>
+        <div class="active">Home</div>
+        <div onClick={() => navigate('/dienstleistungen')}>Dienstleistungen</div>
       </div>
 
       <h1><div className="blue">M</div>atthias&nbsp;<div className="blue">M</div>elk Automobile</h1>
@@ -27,25 +30,27 @@ function App() {
 
       <div className="textbox">
         <h2>Impressum</h2>
-        <p>Angaben gemäß §5 TMG:</p>
-        <p></p>
-        <p>Matthias Melk Automobile</p>
-        <p>Kfz-Meister</p>
-        <p>Hauptstr. 20</p>
-        <p>82390 Eberfing / Deutschland</p>
-        <p></p>
-        <p>Vertreten durch:</p>
-        <p>Matthias Melk</p>
-        <p></p>
-        <p>Kontakt:</p>
-        <p>Tel.: +(49) 8802 9138808</p>
-        <p>Mobil: +(49)163 2904969</p>
-        <p>Fax: +(49) 8802 9139755</p>
-        <p>E-Mail: m.melk-automobile@t-online.de</p>
-        <p></p>
-        <p>Umsatzsteuer:</p>
-        <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:</p>
-        <p>DE 51627081394</p>
+        <ul>
+          <li>Angaben gemäß §5 TMG:</li>
+          <p></p>
+          <li>Matthias Melk Automobile</li>
+          <li>Kfz-Meister</li>
+          <li>Hauptstr. 20</li>
+          <li>82390 Eberfing / Deutschland</li>
+          <p></p>
+          <li>Vertreten durch:</li>
+          <li>Matthias Melk</li>
+          <p></p>
+          <li>Kontakt:</li>
+          <li>Tel.: +(49) 8802 9138808</li>
+          <li>Mobil: +(49)163 2904969</li>
+          <li>Fax: +(49) 8802 9139755</li>
+          <li>E-Mail: m.melk-automobile@t-online.de</li>
+          <p></p>
+          <li>Umsatzsteuer:</li>
+          <li>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:</li>
+          <li>DE 51627081394</li>
+        </ul>
       </div>
 
 
@@ -54,11 +59,13 @@ function App() {
         <p></p>
         <div className="contact"><div className="blue">M</div>atthias&nbsp;<div className="blue">M</div>elk Automobile</div>
         <p></p>
-        <p>Postanschrift:</p>
-        <p>Hauptstr. 20</p>
-        <p>82390 Eberfing</p>
-        <p>Tel.: 08802/9138808</p>
-        <p>e-mail: m.melk-automobile@t-online.de</p>
+        <ul>
+          <li>Postanschrift:</li>
+          <li>Hauptstr. 20</li>
+          <li>82390 Eberfing</li>
+          <li>Tel.: 08802/9138808</li>
+          <li>e-mail: m.melk-automobile@t-online.de</li>
+        </ul>
       </div>
     </div>
   );
