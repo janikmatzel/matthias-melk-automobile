@@ -3,15 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { Dienstleistungen } from './dienstleistungen';
+import { Kontakt } from './kontakt';
+import { Impressum } from './impressum';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/matthiasmelkautomobile">
       <Routes>
         <Route index element={<App />} />
         <Route path="/dienstleistungen" element={<Dienstleistungen />} />
+        <Route path="/kontakt" element={<Kontakt />} />
+        <Route path="/impressum" element={<Impressum />} />
         <Route
           path="*"
           element={

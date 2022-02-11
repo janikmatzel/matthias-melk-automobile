@@ -4,18 +4,21 @@
 }
 
 h1 {
-    display: flex;
-    align-content: center;
-    justify-content: center;
     font-size: 3em;
+    margin-bottom: 0.3em;
+}
+
+.tiny-space {
+    margin-top: -0.3em;
 }
 
 h2 {
     text-align: center;
 }
 
-.blue {
-    color: #4e7de9;
+strong {
+    font-size: 1.3em;
+    font-family: ui-rounded;
 }
 
 .textbox {
@@ -26,13 +29,13 @@ h2 {
     text-align: justify;
 }
 
-ul {
-    line-height: 100%;
-    list-style-type: none;
-}
-
-.contact {
-    display: flex;
+.heading {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 5em;
 }
 
 /* Add a black background color to the top navigation */

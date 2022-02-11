@@ -10,9 +10,18 @@ const App = () => {
       <div class="topnav">
         <div class="active">Home</div>
         <div onClick={() => navigate('/dienstleistungen')}>Dienstleistungen</div>
+        <div onClick={() => navigate('/kontakt')}>Kontakt</div>
+        <div onClick={() => navigate('/impressum')}>Impressum</div>
       </div>
 
-      <h1><div className="blue">M</div>atthias&nbsp;<div className="blue">M</div>elk Automobile</h1>
+      <div className="heading">
+        <h1>
+          <div className="tiny-space"><font color="#4e7de9"><strong>M</strong></font>atthias</div>
+          <div className="tiny-space"><font color="#4e7de9"><strong>M</strong></font>elk</div>
+          <div className="tiny-space"><strong>A</strong>utomobile</div>
+        </h1>
+        <div className="tiny-space">Gebrauchte Automobile aus Meisterhand</div>
+      </div>
 
       <div className="textbox">
         <h2>Philosophie und mein Versprechen</h2>
@@ -26,46 +35,6 @@ const App = () => {
         Wir sind ein inhabergeführter Kfz-Handelsbetrieb mit Menschen, die sich persönlich für sie engagieren und Verantwortung übernehmen.
         Jeder Kontakt und Dialog mit Ihnen ist uns wichtig und bereitet uns Freude.
         Als Interessent und Kunde stehen sie für uns im Mittelpunkt, verbunden mit dem Ziel das sie mit dem Fahrzeug und unseren Dienstleistungen rund um das Auto vollkommen zufrieden sind.
-      </div>
-
-      <div className="textbox">
-        <h2>Impressum</h2>
-        <ul>
-          <li>Angaben gemäß §5 TMG:</li>
-          <p></p>
-          <li>Matthias Melk Automobile</li>
-          <li>Kfz-Meister</li>
-          <li>Hauptstr. 20</li>
-          <li>82390 Eberfing / Deutschland</li>
-          <p></p>
-          <li>Vertreten durch:</li>
-          <li>Matthias Melk</li>
-          <p></p>
-          <li>Kontakt:</li>
-          <li>Tel.: +(49) 8802 9138808</li>
-          <li>Mobil: +(49)163 2904969</li>
-          <li>Fax: +(49) 8802 9139755</li>
-          <li>E-Mail: m.melk-automobile@t-online.de</li>
-          <p></p>
-          <li>Umsatzsteuer:</li>
-          <li>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:</li>
-          <li>DE 51627081394</li>
-        </ul>
-      </div>
-
-
-      <div className="textbox">
-        <h2>Kontakt</h2>
-        <p></p>
-        <div className="contact"><div className="blue">M</div>atthias&nbsp;<div className="blue">M</div>elk Automobile</div>
-        <p></p>
-        <ul>
-          <li>Postanschrift:</li>
-          <li>Hauptstr. 20</li>
-          <li>82390 Eberfing</li>
-          <li>Tel.: 08802/9138808</li>
-          <li>e-mail: m.melk-automobile@t-online.de</li>
-        </ul>
       </div>
     </div>
   );
