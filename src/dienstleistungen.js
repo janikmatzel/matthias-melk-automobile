@@ -11,6 +11,7 @@ export const Dienstleistungen = () => {
             <div class="topnav">
                 <div onClick={() => navigate('/')}>Home</div>
                 <div class="active">Dienstleistungen</div>
+                <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank"><div>Fahrzeuge</div></a>
                 <div onClick={() => navigate('/kontakt')}>Kontakt</div>
                 <div onClick={() => navigate('/impressum')}>Impressum</div>
             </div>
@@ -25,11 +26,13 @@ export const Dienstleistungen = () => {
                         <li>Probefahrt</li>
                         <li>Vermittlung und Suche von Automobilen</li>
                         <li>Maßgeschneiderte Angebote zur Finanzierung und zum Leasing von Fahrzeugen</li>
+                        <li>Vermittlung und Beratung von Finanzierung und Leasing</li>
+                        <li>Vermittlung von Fzg. Garantien und Reperaturkostenversicherungen</li>
                     </ul>
                     <img id="kfzInnung" src={kfzInnung} width="12%" height="12%" alt="Kfz-Innung" />
                 </div>
             </div>
-            <img id="motorhaube" src={motorhaube} width="40%" height="40%" alt="Matthias Melk mit einem Blick in den Motorraum" />
+            <img id="motorhaube" src={motorhaube} width="30%" height="30%" alt="Matthias Melk mit einem Blick in den Motorraum" />
         </div>
     );
 }
