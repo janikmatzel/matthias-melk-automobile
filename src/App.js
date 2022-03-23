@@ -12,7 +12,7 @@ const App = () => {
       <div className="topnav">
         <div className="active">Home</div>
         <div onClick={() => navigate('/dienstleistungen')}>Dienstleistungen</div>
-        <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank"><div>Fahrzeuge</div></a>
+        <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank" rel="noopener"><div>Fahrzeuge</div></a>
         <div onClick={() => navigate('/kontakt')}>Kontakt</div>
         <div onClick={() => navigate('/impressum')}>Impressum</div>
       </div>

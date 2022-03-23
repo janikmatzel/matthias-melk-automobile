@@ -12,7 +12,7 @@ export const Dienstleistungen = () => {
             <div class="topnav">
                 <div onClick={() => navigate('/')}>Home</div>
                 <div class="active">Dienstleistungen</div>
-                <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank"><div>Fahrzeuge</div></a>
+                <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank" rel="noopener"><div>Fahrzeuge</div></a>
                 <div onClick={() => navigate('/kontakt')}>Kontakt</div>
                 <div onClick={() => navigate('/impressum')}>Impressum</div>
             </div>
