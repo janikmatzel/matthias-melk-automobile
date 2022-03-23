@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/matthiasmelkautomobile">
+    <BrowserRouter>
       <Routes>
         <Route index element={<App />} />
         <Route path="/dienstleistungen" element={<Dienstleistungen />} />
