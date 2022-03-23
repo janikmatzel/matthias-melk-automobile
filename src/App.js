@@ -2,7 +2,7 @@ import './App.css';
 import portrait from './pics/Portrait.jpg';
 import inCar from './pics/InCar.JPG';
 import { useNavigate } from "react-router-dom";
-
+import React from 'react';
 
 const App = () => {
   const navigate = useNavigate();

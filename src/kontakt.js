@@ -1,5 +1,6 @@
 import './kontakt.css';
 import { useNavigate } from "react-router-dom";
+import React from 'react';
 
 export const Kontakt = () => {
     const navigate = useNavigate();

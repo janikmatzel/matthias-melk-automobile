@@ -2,6 +2,7 @@ import './dienstleistungen.css';
 import kfzInnung from './pics/Kfz-Innung.JPG';
 import motorhaube from './pics/Motorhaube.JPG';
 import { useNavigate } from "react-router-dom";
+import React from 'react';
 
 export const Dienstleistungen = () => {
     const navigate = useNavigate();
