@@ -27,7 +27,7 @@ strong {
     width: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3em;
@@ -42,17 +42,21 @@ strong {
 }
 
 .text {
-    width: 20em;
+    width: 25em;
     text-align: justify;
     margin-top: -2em;
 }
 
 #portrait {
-    margin-top: 2em;
+    width: 25em;
+    height: 19.88em;
+    margin-left: 5em;
 }
 
 #incar {
-    margin-top: 0em;
+    width: 25em;
+    height: 16.66em;
+    margin-right: 5em;
 }
 
 .heading {
@@ -124,7 +128,19 @@ strong {
         flex-direction: column;
     }
 
+    #portrait {
+        width: 40%;
+        height: 40%;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #incar {
+        width: 40%;
+        height: 40%;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 3em;
     }
 }
