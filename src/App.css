@@ -38,12 +38,12 @@ strong {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3em;
-    text-align: justify;
+    text-align: left;
 }
 
 .text {
     width: 25em;
-    text-align: justify;
+    text-align: left;
     margin-top: -2em;
 }
 
@@ -68,15 +68,6 @@ strong {
     margin-bottom: 5em;
 }
 
-.fotobox {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -91,6 +82,7 @@ strong {
     padding: 1em 1em;
     text-decoration: none;
     font-size: 1em;
+    cursor: pointer;
 }
 
 /* Change the color of links on hover */
@@ -108,11 +100,10 @@ strong {
 @media only screen and (max-width: 768px) {
 
     /* For mobile phones: */
-    .textbox {
-        text-align: left;
-    }
 
     .text {
+        width: 80%;
+        margin-top: -2em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -129,16 +120,16 @@ strong {
     }
 
     #portrait {
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
         margin-top: 1em;
         margin-left: auto;
         margin-right: auto;
     }
 
     #incar {
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 3em;

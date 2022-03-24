@@ -34,11 +34,11 @@ const App = () => {
           Diese Rahmenbedingungen gewährleisten dem Käufer eine sichere und sorgenfreie Mobilität.
         </div>
 
-        <img id="portrait" src={portrait} width="40%" height="40%" alt="Portrait Matthias Melk" />
+        <img id="portrait" src={portrait} alt="Portrait Matthias Melk" />
       </div>
 
       <div className="flexbox">
-        <img id="incar" src={inCar} width="40%" height="40%" alt="Matthias Melk am Steuer" />
+        <img id="incar" src={inCar} alt="Matthias Melk am Steuer" />
         <div className="text">
           <h2>Unser Anspruch</h2>
           Wir sind ein inhabergeführter Kfz-Handelsbetrieb mit Menschen, die sich persönlich für sie engagieren und Verantwortung übernehmen.
