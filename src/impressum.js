@@ -12,6 +12,7 @@ export const Impressum = () => {
                 <div onClick={() => navigate('/dienstleistungen')}>Dienstleistungen</div>
                 <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank" rel="noopener noreferrer"><div>Fahrzeuge</div></a>
                 <div onClick={() => navigate('/kontakt')}>Kontakt</div>
+                <div onClick={() => navigate('/kooperationspartner')}>Kooperationspartner</div>
                 <div class="active">Impressum</div>
             </div>
             <div className="textbox">

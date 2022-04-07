@@ -1,0 +1,21 @@
+#yareto {
+    width: 9.62em;
+    height: 3em;
+}
+
+#meneks {
+    width: 18.82em;
+    height: 3em;
+}
+
+.flexbox2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}

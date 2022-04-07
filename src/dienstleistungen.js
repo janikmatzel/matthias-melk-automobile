@@ -14,6 +14,7 @@ export const Dienstleistungen = () => {
                 <div class="active">Dienstleistungen</div>
                 <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank" rel="noopener noreferrer"><div>Fahrzeuge</div></a>
                 <div onClick={() => navigate('/kontakt')}>Kontakt</div>
+                <div onClick={() => navigate('/kooperationspartner')}>Kooperationspartner</div>
                 <div onClick={() => navigate('/impressum')}>Impressum</div>
             </div>
             <div className="textbox">
