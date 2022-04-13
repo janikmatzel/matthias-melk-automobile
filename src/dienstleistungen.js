@@ -1,22 +1,12 @@
 import './dienstleistungen.css';
 import kfzInnung from './pics/Kfz-Innung.JPG';
 import motorhaube from './pics/Motorhaube.JPG';
-import { useNavigate } from "react-router-dom";
 import React from 'react';
 
 export const Dienstleistungen = () => {
-    const navigate = useNavigate();
 
     return (
-        <div>
-            <div className="topnav">
-                <div onClick={() => navigate('/')}>Home</div>
-                <div className="active">Dienstleistungen</div>
-                <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank" rel="noopener noreferrer"><div>Fahrzeuge</div></a>
-                <div onClick={() => navigate('/kontakt')}>Kontakt</div>
-                <div onClick={() => navigate('/kooperationspartner')}>Kooperationspartner</div>
-                <div onClick={() => navigate('/impressum')}>Impressum</div>
-            </div>
+        <div className="full-height">
             <div className="textbox">
                 <h2>Unsere Dienstleistungen</h2>
 

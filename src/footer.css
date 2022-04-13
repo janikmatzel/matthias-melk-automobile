@@ -1,0 +1,69 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #333;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.footer div {
+    color: #f2f2f2;
+}
+
+.impressum {
+    font-size: x-small;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.kontakt {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.link {
+    font-size: 1.2em;
+    padding: 1em;
+    background-color: #4e7de9;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: xx-small;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .impressum {
+        font-size: x-small;
+        margin-left: 2em;
+    }
+
+    .kontakt {
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+
+    .link {
+        font-size: 0.8em;
+    }
+
+    .logo {
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+}

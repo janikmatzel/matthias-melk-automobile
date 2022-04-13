@@ -6,12 +6,15 @@ import { Dienstleistungen } from './dienstleistungen';
 import { Kontakt } from './kontakt';
 import { Impressum } from './impressum';
 import { Kooperationspartner } from './kooperationspartner';
+import { Header } from './header';
+import { Footer } from './footer';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route index element={<App />} />
         <Route path="/dienstleistungen" element={<Dienstleistungen />} />
@@ -25,6 +28,7 @@ ReactDOM.render(
           }
         />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

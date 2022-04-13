@@ -1,20 +1,10 @@
 import './kontakt.css';
-import { useNavigate } from "react-router-dom";
 import React from 'react';
 
 export const Kontakt = () => {
-    const navigate = useNavigate();
 
     return (
-        <div>
-            <div className="topnav">
-                <div onClick={() => navigate('/')}>Home</div>
-                <div onClick={() => navigate('/dienstleistungen')}>Dienstleistungen</div>
-                <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank" rel="noopener noreferrer"><div>Fahrzeuge</div></a>
-                <div className="active">Kontakt</div>
-                <div onClick={() => navigate('/kooperationspartner')}>Kooperationspartner</div>
-                <div onClick={() => navigate('/impressum')}>Impressum</div>
-            </div>
+        <div className="full-height">
             <div className="textbox">
                 <h2>Kontakt</h2>
                 <div><font color="#4e7de9"><b>M</b></font>atthias</div>

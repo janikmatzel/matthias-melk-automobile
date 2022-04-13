@@ -1,20 +1,10 @@
 import './impressum.css';
-import { useNavigate } from "react-router-dom";
 import React from 'react';
 
 export const Impressum = () => {
-    const navigate = useNavigate();
 
     return (
-        <div>
-            <div className="topnav">
-                <div onClick={() => navigate('/')}>Home</div>
-                <div onClick={() => navigate('/dienstleistungen')}>Dienstleistungen</div>
-                <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank" rel="noopener noreferrer"><div>Fahrzeuge</div></a>
-                <div onClick={() => navigate('/kontakt')}>Kontakt</div>
-                <div onClick={() => navigate('/kooperationspartner')}>Kooperationspartner</div>
-                <div className="active">Impressum</div>
-            </div>
+        <div className="full-height">
             <div className="textbox">
                 <h2>Impressum</h2>
                 <div>Angaben gemäß §5 TMG:</div>
