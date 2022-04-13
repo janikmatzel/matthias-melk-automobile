@@ -7,13 +7,13 @@ export const Impressum = () => {
 
     return (
         <div>
-            <div class="topnav">
+            <div className="topnav">
                 <div onClick={() => navigate('/')}>Home</div>
                 <div onClick={() => navigate('/dienstleistungen')}>Dienstleistungen</div>
                 <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank" rel="noopener noreferrer"><div>Fahrzeuge</div></a>
                 <div onClick={() => navigate('/kontakt')}>Kontakt</div>
                 <div onClick={() => navigate('/kooperationspartner')}>Kooperationspartner</div>
-                <div class="active">Impressum</div>
+                <div className="active">Impressum</div>
             </div>
             <div className="textbox">
                 <h2>Impressum</h2>

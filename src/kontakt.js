@@ -7,11 +7,11 @@ export const Kontakt = () => {
 
     return (
         <div>
-            <div class="topnav">
+            <div className="topnav">
                 <div onClick={() => navigate('/')}>Home</div>
                 <div onClick={() => navigate('/dienstleistungen')}>Dienstleistungen</div>
                 <a href="https://home.mobile.de/MATTHIASMELKAUTOMOBILE#ses" target="_blank" rel="noopener noreferrer"><div>Fahrzeuge</div></a>
-                <div class="active">Kontakt</div>
+                <div className="active">Kontakt</div>
                 <div onClick={() => navigate('/kooperationspartner')}>Kooperationspartner</div>
                 <div onClick={() => navigate('/impressum')}>Impressum</div>
             </div>

@@ -25,7 +25,7 @@ const App = () => {
           <div className="tiny-space"><strong>A</strong>utomobile</div>
         </h1>
         <div className="tiny-space"><b>Gebrauchte Automobile aus Meisterhand</b></div>
-      </div >
+      </div>
 
       <div className="flexbox">
         <div className="text">
