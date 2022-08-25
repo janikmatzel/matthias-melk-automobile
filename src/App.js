@@ -1,6 +1,7 @@
 import './App.css';
 import portrait from './pics/Portrait.jpg';
 import inCar from './pics/InCar.JPG';
+import logo from './pics/Logo.jpeg';
 import React from 'react';
 
 const App = () => {
@@ -8,12 +9,7 @@ const App = () => {
   return (
     <div className="full-height">
       <div className="heading">
-        <h1>
-          <div className="tiny-space"><strong className="stronger">M</strong>atthias</div>
-          <div className="tiny-space"><strong>M</strong>elk</div>
-          <div className="tiny-space"><strong>A</strong>utomobile</div>
-        </h1>
-        <div className="tiny-space"><b>Gebrauchte Automobile aus Meisterhand</b></div>
+        <img id="logo" src={logo} alt="Firmenlogo Matthias Melk Automobile" />
       </div>
 
       <div className="flexbox">

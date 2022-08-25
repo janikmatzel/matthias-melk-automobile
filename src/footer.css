@@ -36,8 +36,8 @@
     text-decoration: none;
 }
 
-.logo {
-    font-size: xx-small;
+#logo_footer {
+    width: 15em;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -62,7 +62,8 @@
         font-size: 0.8em;
     }
 
-    .logo {
+    #logo_footer {
+        width: 10em;
         margin-top: 2em;
         margin-left: 2em;
     }

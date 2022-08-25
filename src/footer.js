@@ -1,4 +1,5 @@
 import './footer.css';
+import logo from './pics/Logo.jpeg';
 import React from 'react';
 
 export const Footer = () => {
@@ -32,14 +33,7 @@ export const Footer = () => {
                 <div className="kontakt">
                     <a className="link" href="mailto: m.melk-automobile@t-online.de">Kontaktieren Sie uns jetzt!</a>
                 </div>
-                <div className="logo">
-                    <h1>
-                        <div className="tiny-space"><strong className="stronger">M</strong>atthias</div>
-                        <div className="tiny-space"><strong>M</strong>elk</div>
-                        <div className="tiny-space"><strong>A</strong>utomobile</div>
-                    </h1>
-                    <div className="tiny-space"><b>Gebrauchte Automobile aus Meisterhand</b></div>
-                </div>
+                <img id="logo_footer" src={logo} alt="Firmenlogo Matthias Melk Automobile" />
             </div>
         </div>
     );

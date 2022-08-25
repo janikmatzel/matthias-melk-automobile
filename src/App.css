@@ -48,15 +48,17 @@ strong {
     margin-top: -2em;
 }
 
+#logo {
+    width: 25em;
+}
+
 #portrait {
     width: 25em;
-    height: 19.88em;
     margin-left: 5em;
 }
 
 #incar {
     width: 25em;
-    height: 16.66em;
     margin-right: 5em;
 }
 
@@ -102,17 +104,19 @@ strong {
         flex-direction: column;
     }
 
+    #logo {
+        width: 10em;
+    }
+
     #portrait {
-        width: 50%;
-        height: 50%;
+        width: 10em;
         margin-top: 1em;
         margin-left: auto;
         margin-right: auto;
     }
 
     #incar {
-        width: 50%;
-        height: 50%;
+        width: 10em;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 3em;

@@ -10,13 +10,11 @@
 
 #kfzInnung {
     margin-left: 4em;
-    width: 10.86em;
-    height: 16.66em;
+    height: 15em;
 }
 
 #motorhaube {
-    width: 25em;
-    height: 16.66em;
+    height: 15em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -26,16 +24,14 @@
     }
 
     #kfzInnung {
-        width: 20%;
-        height: 20%;
+        height: 10em;
         margin-top: 1em;
         margin-left: auto;
         margin-right: auto;
     }
 
     #motorhaube {
-        width: 50%;
-        height: 50%;
+        height: 10em;
         margin-left: auto;
         margin-right: auto;
     }
