@@ -42,7 +42,7 @@
     margin-bottom: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 845px) {
     .footer {
         display: flex;
         flex-direction: column;

@@ -6,6 +6,7 @@
 .flex {
     display: flex;
     flex-direction: row;
+    margin-bottom: 5em;
 }
 
 #kfzInnung {
@@ -17,7 +18,11 @@
     height: 15em;
 }
 
-@media only screen and (max-width: 768px) {
+.full-height {
+    min-height: calc(100vh - 245px);
+}
+
+@media only screen and (max-width: 845px) {
     .flex {
         display: flex;
         flex-direction: column;

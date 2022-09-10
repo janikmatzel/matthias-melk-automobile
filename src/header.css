@@ -28,7 +28,7 @@
     color: white;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 845px) {
     .topnav {
         display: flex;
         flex-direction: column;

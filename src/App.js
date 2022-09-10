@@ -7,8 +7,8 @@ import React from 'react';
 const App = () => {
 
   return (
-    <div className="full-height">
-      <div className="heading">
+    <div>
+      <div className="logo_heading">
         <img id="logo" src={logo} alt="Firmenlogo Matthias Melk Automobile" />
       </div>
 

@@ -39,7 +39,7 @@ strong {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 }
 
 .text {
@@ -62,20 +62,16 @@ strong {
     margin-right: 5em;
 }
 
-.heading {
+.logo_heading {
     width: fit-content;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    margin-top: 5em;
     margin-bottom: 5em;
 }
 
-.full-height {
-    min-height: calc(100vh - 245px);
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 845px) {
 
     /* For mobile phones: */
 

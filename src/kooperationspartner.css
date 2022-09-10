@@ -10,7 +10,11 @@ a {
     color: #4e7de9;
 }
 
-@media only screen and (max-width: 768px) {
+.full-height {
+    min-height: calc(100vh - 245px);
+}
+
+@media only screen and (max-width: 845px) {
     #yareto {
         height: 1em;
     }
