@@ -2,6 +2,7 @@ import './App.css';
 import portrait from './pics/Portrait.jpg';
 import inCar from './pics/InCar.JPG';
 import logo from './pics/Logo.jpeg';
+import bewertung from './pics/Kundenbewertung.jpg'
 import React from 'react';
 
 const App = () => {
@@ -25,12 +26,24 @@ const App = () => {
 
       <div className="flexbox">
         <img id="incar" src={inCar} alt="Matthias Melk am Steuer" />
+
         <div className="text">
           <h2>Unser Anspruch</h2>
           Wir sind ein inhabergeführter Kfz-Handelsbetrieb mit Menschen, die sich persönlich für Sie engagieren und Verantwortung übernehmen.
           Jeder Kontakt und Dialog mit Ihnen ist uns wichtig und bereitet uns Freude.
           Als Interessent und Kunde stehen Sie für uns im Mittelpunkt, verbunden mit dem Ziel, dass Sie mit dem Fahrzeug und unseren Dienstleistungen rund um das Auto vollkommen zufrieden sind.
         </div>
+      </div>
+
+      <div className="flexbox">
+        <div className="text">
+          <h2>Danke!</h2>
+          Es ist schön zu sehen wie die Kundenbewertungen unsere Philosophie und Arbeitsqualität widerspiegeln.
+          Gleichzeitig möchte ich mich auf diesem Weg bei allen Kunden für die großartigen Bewertungen bedanken.
+          Es ist für mich Motivation und Ansporn zugleich, um auch weiterhin technisch hochwertige Gebrauchtwagen zu suchen und zu vertreiben.
+        </div>
+
+        <img id="bewertung" src={bewertung} alt="Kundenbewertung Mobile.de" />
       </div>
     </div >
   );
