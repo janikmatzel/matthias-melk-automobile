@@ -122,4 +122,11 @@ strong {
         margin-right: auto;
         margin-bottom: 3em;
     }
+
+    #bewertung {
+        width: 10em;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
