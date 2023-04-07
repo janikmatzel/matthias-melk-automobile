@@ -2,7 +2,7 @@ import './App.css';
 import portrait from './pics/Portrait.jpg';
 import inCar from './pics/InCar.JPG';
 import logo from './pics/Logo.jpeg';
-import bewertung from './pics/Kundenbewertung.jpg'
+import bewertung from './pics/Kundenbewertung.png'
 import React from 'react';
 
 const App = () => {

@@ -28,6 +28,13 @@
     color: white;
 }
 
+#mobile {
+    position: 'absolute';
+    top: 0;
+    left: 0; 
+    height: 1.5em;
+}
+
 @media only screen and (max-width: 845px) {
     .topnav {
         display: flex;

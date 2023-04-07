@@ -1,6 +1,5 @@
 import './dienstleistungen.css';
-import kfzInnung from './pics/Kfz-Innung.JPG';
-import motorhaube from './pics/Motorhaube.JPG';
+import motorhaube from './pics/Motorhaube.JPEG';
 import React from 'react';
 
 export const Dienstleistungen = () => {
@@ -21,10 +20,7 @@ export const Dienstleistungen = () => {
                     <li>Vermittlung und Beratung von Finanzierung und Leasing</li>
                     <li>Vermittlung von Fzg. Garantien und Reperaturkostenversicherungen</li>
                 </ul>
-                <div className="flex">
-                    <img id="motorhaube" src={motorhaube} alt="Matthias Melk mit einem Blick in den Motorraum" />
-                    <img id="kfzInnung" src={kfzInnung} alt="Kfz-Innung" />
-                </div>
+                <img id="motorhaube" src={motorhaube} alt="Matthias Melk mit einem Blick in den Motorraum" />
             </div>
         </div>
     );
