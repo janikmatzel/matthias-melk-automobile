@@ -19,15 +19,8 @@
         flex-direction: column;
     }
 
-    #kfzInnung {
-        height: 10em;
-        margin-top: 1em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     #motorhaube {
-        height: 10em;
+        width: 10em;
         margin-left: auto;
         margin-right: auto;
     }
