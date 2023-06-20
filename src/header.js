@@ -1,5 +1,4 @@
 import './header.css';
-import mobile from './pics/mobileDE.jpeg';
 import { useNavigate } from "react-router-dom";
 import React from 'react';
 
