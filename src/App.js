@@ -2,7 +2,6 @@ import './App.css';
 import portrait from './pics/Portrait.jpg';
 import inCar from './pics/InCar.JPG';
 import logo from './pics/Logo.jpeg';
-import bewertung from './pics/Kundenbewertung.png'
 import React from 'react';
 
 const App = () => {
@@ -33,17 +32,6 @@ const App = () => {
           Jeder Kontakt und Dialog mit Ihnen ist uns wichtig und bereitet uns Freude.
           Als Interessent und Kunde stehen Sie für uns im Mittelpunkt, verbunden mit dem Ziel, dass Sie mit dem Fahrzeug und unseren Dienstleistungen rund um das Auto vollkommen zufrieden sind.
         </div>
-      </div>
-
-      <div className="flexbox">
-        <div className="text">
-          <h2>Danke!</h2>
-          Es ist schön zu sehen wie die Kundenbewertungen unsere Philosophie und Arbeitsqualität widerspiegeln.
-          Gleichzeitig möchte ich mich auf diesem Weg bei allen Kunden für die großartigen Bewertungen bedanken.
-          Es ist für mich Motivation und Ansporn zugleich, um auch weiterhin technisch hochwertige Gebrauchtwagen zu suchen und zu vertreiben.
-        </div>
-
-        <img id="bewertung" src={bewertung} alt="Kundenbewertung Mobile.de" />
       </div>
     </div >
   );

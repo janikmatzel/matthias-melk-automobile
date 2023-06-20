@@ -1,5 +1,5 @@
 import './footer.css';
-import kfzInnung from './pics/Kfz-Innung.jpeg';
+import logo from './pics/Logo.jpeg';
 import React from 'react';
 
 export const Footer = () => {
@@ -33,7 +33,7 @@ export const Footer = () => {
                 <div className="kontakt">
                     <a className="link" href="mailto: m.melk-automobile@t-online.de">Kontaktieren Sie uns jetzt!</a>
                 </div>
-                <img id="logo_footer" src={kfzInnung} alt="Kfz Innung" />
+                <img id="logo_footer" src={logo} alt="Firmenlogo Matthias Melk Automobile" />
             </div>
         </div>
     );

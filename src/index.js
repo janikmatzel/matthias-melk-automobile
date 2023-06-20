@@ -8,6 +8,7 @@ import { Header } from './header';
 import { Footer } from './footer';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import { Kundenbewertungen } from './kundenbewertung';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
       <Routes>
         <Route index element={<App />} />
         <Route path="/dienstleistungen" element={<Dienstleistungen />} />
+        <Route path="/kundenbewertungen" element={<Kundenbewertungen />} />
         <Route path="/kooperationspartner" element={<Kooperationspartner />} />
         <Route
           path="*"

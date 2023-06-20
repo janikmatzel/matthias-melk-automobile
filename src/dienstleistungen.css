@@ -1,12 +1,35 @@
+.textbox {
+    width: 42em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
 .ulDienstleistungen {
+    list-style-type: none;
     line-height: 200%;
     margin-bottom: 4em;
 }
 
+.ulDienstleistungen li {
+    color: white;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 0.1em solid #ccc;
+    background-color: #4e7de9;
+}
+
+#kfzInnung {
+    margin-left: 3em;
+    height: 16em;
+}
+
 #motorhaube {
-    width: 25em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 3em;
+    height: 16em;
 }
 
 .full-height {
@@ -19,8 +42,21 @@
         flex-direction: column;
     }
 
+    #kfzInnung {
+        height: 10em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #motorhaube {
-        width: 10em;
+        height: 10em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+    }
+
+    .textbox {
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
